@@ -1,0 +1,29 @@
+/**
+ * gentooev stylesheet, based on "default"
+ * author: Alex Legler <a3li@gentoo-ev.org>
+ */
+
+@import url(../../../stylesheets/application.css);
+
+#content {
+	background: url(../images/bodybg.png) white;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+#header {
+	background-color: #434079;
+}
+
+#main-menu li a:hover {
+	background: none repeat scroll 0 0 #AAA2CC;
+}
+
+#top-menu {
+	background-color: #26214A;
+}
+
+a, a:link, a:visited {
+	color: #434079;
+	text-decoration: none;
+}
